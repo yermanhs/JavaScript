@@ -18,8 +18,9 @@ const listaObjetos = [
 ]
 
 const existeJuan = listaObjetos.some(persona => persona.nombre === "Juan")
-
 console.log(existeJuan)
+const existeMiguel = listaObjetos.some(persona => persona.nombre === "Miguel")
+console.log(existeMiguel)
 
 // Cómo obtener una lista a partir de un objeto iterable
 const str = "Hola soy Gorka"

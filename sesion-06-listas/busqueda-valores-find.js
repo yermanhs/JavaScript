@@ -7,6 +7,11 @@ for (let i = 0; i < array.length; i++) {
 }
 
 // Forma ES6 (más eficiente) .forEach()
+const arrayNum = [3, 6, 2, 77, 2, 3, 93, 19]
+arrayNum.forEach(valor=>{
+    console.log(valor)
+})
+
 let suma = 0;
 const arrayNums = [3, 6, 2, 77, 2, 3, 93, 19]
 arrayNums.forEach(valor => {
@@ -22,7 +27,6 @@ const variable = array.find(valor => {
         return true
     }
 })
-
 console.log(variable)
 
 const listaObjetos = [

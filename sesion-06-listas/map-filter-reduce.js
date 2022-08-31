@@ -9,6 +9,28 @@ const val = array.forEach(v => {
 })
 console.log(val)
 
+const newArray_0 = array.map(valor=>{
+    return `1-${valor}`
+})
+console.log(newArray_0)
+
+const newArray_1 = array.map((valor,indice)=>{
+    console.log(indice)
+    return `1-${valor}`
+})
+console.log(newArray_1)
+
+const newArray_2 = array.map((valor,indice)=>{
+    console.log(indice)
+    return `${indice}-${valor}`
+})
+console.log(newArray_2)
+
+const newArray_3 = array.map((valor,indice)=>{
+    return `${indice+1}-${valor}`
+})
+console.log(newArray_3)
+
 const newArray = array.map((valor, indice) => `${indice + 1} - ${valor}`)
 console.log(newArray)
 

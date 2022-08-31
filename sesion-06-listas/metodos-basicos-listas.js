@@ -1,5 +1,6 @@
 // Cómo trabajar con listas (arrays, arreglos, vectores...)
-let var1 = { id: false }
+let var1 = { id: false } //objeto
+let array_ej=[1,2,3,4,5]
 let array = [1, "hola", false, { id: 5 }, null, undefined, var1]
 
 console.log(array)
