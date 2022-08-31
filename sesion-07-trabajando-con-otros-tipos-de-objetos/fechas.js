@@ -1,20 +1,20 @@
-// Trabajando con fechas
+// Trabajando con fechas, declarando o definir de esta forma
 const fecha = new Date()
-
+//inicializar la fecha actual
 console.log(fecha)
 
 // Atención - Los meses inicializan en 0 (0 - Enero, 11 - Diciembre)
-const fecha2 = new Date(1987, 10, 20, 1, 23, 52, 192)
+const fecha2 = new Date(1987, 10, 20, 1, 23, 52, 192)//con todo el formato completo
 
 console.log(fecha2)
 
 const fecha3 = new Date(-10000000000000) // Milisegundos
 console.log(fecha3)
 
-const fecha4 = new Date("October 13, 1979 12:15:15")
+const fecha4 = new Date("October 13, 1979 12:15:15")//definir fechas a traves de strings
 console.log(fecha4)
 
-console.log(fecha < fecha2)
+console.log(fecha > fecha2)
 
 const fecha5 = new Date(1987, 10, 20, 1, 23, 52, 192)
 console.log(fecha5)
@@ -35,6 +35,6 @@ console.log(fecha2.getFullYear())
 
 console.log(fecha2)
 
-// .toLocaleDateString
+// metodo  .toLocaleDateString
 // https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
-console.log(fecha2.toLocaleDateString("en-US"))
+console.log(fecha2.toLocaleDateString("en-US")) //nos permite generar el formato
