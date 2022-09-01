@@ -9,7 +9,7 @@ function hola() {
 
 saludar()
 
-/// 1. global()
+/// 1. global() ejecuta todo el codigo de arriba a abajo
 /// 2. saludar() global()
 /// 3. hola() saludar() global()
 /// 4. saludar() global()

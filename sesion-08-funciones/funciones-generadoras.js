@@ -1,3 +1,6 @@
+
+//programa para un ID incremental
+
 function* generaId() {
     let id = 0;
     while(true) {
@@ -11,7 +14,7 @@ function* generaId() {
 
 const gen = generaId();
 
-console.log(gen.next().value)
+console.log(gen.next().value) // para obtner un valor .next
 console.log(gen.next().value)
 console.log(gen.next().value)
 console.log(gen.next().value)

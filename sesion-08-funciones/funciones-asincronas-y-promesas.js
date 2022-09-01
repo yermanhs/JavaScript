@@ -9,9 +9,9 @@ const miPromesa = new Promise((resolve, reject) => {
     const i = Math.floor(Math.random() * 2)
     // Si está todo correcto
     if (i !== 0) {
-        resolve()
+        resolve()//exito
     } else {
-        reject()
+        reject()//rechazo
     }
 })
 
@@ -20,4 +20,4 @@ miPromesa
     .catch(() => console.log("ERROR"))
     .finally(() => console.log("Yo me ejecuto siempre"))
 
-// async await
+// async await, otra forma de consumir funciones asincronas

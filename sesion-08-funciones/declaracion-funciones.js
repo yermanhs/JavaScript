@@ -45,7 +45,7 @@ function imprimeNumero(numero = 7) { // Parámetros por defecto
 
 imprimeNumero()
 
-/////////
+///////// factor de propagación
 
 function imprimir(...parametros) {
     console.log(parametros)
