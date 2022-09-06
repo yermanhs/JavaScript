@@ -12,3 +12,5 @@ console.log(moduloMatematicas.nombre)
 
 console.log(getAutor())
 console.log(libro)
+
+//agrego el type:module en el packagejson  para trabajar con ES
