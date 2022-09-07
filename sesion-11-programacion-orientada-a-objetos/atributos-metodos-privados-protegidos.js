@@ -20,7 +20,7 @@ class Persona {
         return this.#nombre
     }
 
-    #obtenEdad() {
+    #obtenEdad() { //privado no se puede acceder desde afuera
         return this.#edad
     }
 
@@ -34,12 +34,10 @@ class Persona {
 }
 
 const persona = new Persona("Gorka", 70)
-// console.log(persona)
-// console.log(persona.nombre)
-// persona.saludo()
-// console.log(persona.obtenNombre())
-// console.log(persona.#obtenEdad())
-// console.log(persona._isDeveloper)
+console.log(persona.obtenNombre())
+//console.log(persona.#obtenEdad())
+console.log(persona._isDeveloper)
+
 
 ////////////////////////
 
